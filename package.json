@@ -12,7 +12,9 @@
     "test": "run-p --race dev cy:run"
   },
   "dependencies": {
+    "aws-sdk": "^2.740.0",
     "compression": "^1.7.1",
+    "jmespath": "^0.15.0",
     "polka": "next",
     "sirv": "^1.0.0"
   },
